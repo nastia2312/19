@@ -8,6 +8,6 @@ Vagrant.configure("2") do |config|
   inline:
   "apt-get update
   apt-get install -y apache2
-  ubuntu.vm.network "forwarded_port", guest:80, host: 8080"
+  ubuntu.vm.network "forwarded_port", guest:80, host: 8080
   end
 end

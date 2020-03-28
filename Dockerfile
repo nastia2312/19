@@ -1,4 +1,4 @@
-FROM centos
+FROM centos:latest
 
 LABEL maintainer="nastia2312@ukr.net"
 EXPOSE 8081
